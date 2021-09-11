@@ -61,6 +61,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.0784313725490196);
 }
 
 .top-half {
@@ -145,7 +146,7 @@ body {
     margin-bottom: 2rem;
     box-shadow: 0px 10px 10px hsl(251deg 71% 91%);
     font-weight: 700;
-    font-family: 'red hat display';
+    font-family: "red hat display";
     font-size: 1.4rem;
 }
 
@@ -170,4 +171,10 @@ body {
 
 .cancel:hover {
     color: black;
+}
+
+@media screen and (max-width: 500px) {
+    .svg-pattern {
+        display: none;
+    }
 }
