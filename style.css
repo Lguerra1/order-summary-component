@@ -37,7 +37,6 @@ body {
 
 .container {
     position: relative;
-    margin: 10rem auto;
     max-width: 144rem;
     height: 100vh;
     background-color: var(--pale-blue);
