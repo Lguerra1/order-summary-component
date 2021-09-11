@@ -54,7 +54,7 @@ body {
 .card-container {
     position: relative;
     z-index: 10;
-    width: 45rem;
+    width: 42rem;
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
